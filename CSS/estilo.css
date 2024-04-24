@@ -1,0 +1,120 @@
+header {
+    background-image: url(/IMG/Header\ 1.jpeg);
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 400px;
+    padding-top: 70px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: 'Alfa Slab One';
+       color: white;
+       -webkit-text-stroke: 2px black;
+   }
+   
+   h2{
+       font-family: 'Open Sanz';
+       color: black;
+   }
+
+   h4{
+    color: black; 
+    font-weight: bolder; 
+    text-transform: uppercase; 
+    text-align: center; 
+    text-decoration: underline
+   }
+
+   h5{
+    font-weight: bolder; 
+    text-transform: uppercase; 
+    text-align: center; 
+    text-decoration: underline
+   }
+
+   h6{
+    padding-top: 20px;
+   }
+
+   p{
+    margin-top: 25px; 
+    margin-left: 10px; 
+    font-weight: normal;
+   }
+
+   .row{
+    padding-top: 15px;
+    justify-content: center;
+   }
+
+   .col-lg-3{
+   width: 30%;
+   }
+
+   #contacto{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30; 
+    color: black; 
+    text-transform: uppercase; 
+    font-weight: bolder;
+    margin-top: 70px;
+   }
+
+   .col-lg-2{
+    margin-top: 60px;
+    height: 500px;
+    padding-top: 30px;
+    border-style: double;
+    border-color: blue;
+    background-color: aqua;
+    overflow-x: auto;
+   }
+
+   .scroll_section{
+    scroll-margin-top: 50px;
+}
+
+
+footer{
+    font-size: 50; 
+    color: blue;
+    text-align: center; 
+    font-weight: bolder; 
+    background: turquoise; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header{
+        background-image: url(/IMG/Header\ 2.jpg);
+    }
+
+    .col-lg-3{
+        width: 100%;
+    }
+
+    .card{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .col-lg-2{
+        width: 50%
+    }
+
+    .col-lg-9{
+        width: 100%
+    }
+
+    h6{
+        font-size: 25px;
+    }
+}
