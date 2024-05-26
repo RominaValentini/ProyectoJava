@@ -75,6 +75,14 @@ h1{
     overflow-x: auto;
    }
 
+.form{
+    margin-top: 5%;
+}
+
+#usuarios{
+    margin-top: 5%;
+}
+
    .scroll_section{
     scroll-margin-top: 50px;
 }
@@ -102,6 +110,16 @@ footer{
 
     .card{
         margin-top: 15px;
+    }
+
+    .form{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    #usuarios{
+        margin-top: 10%;
     }
 }
 
